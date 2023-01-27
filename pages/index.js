@@ -1,5 +1,7 @@
+import Layout from '@/components/Layout';
+
 const Index = () => {
-  return <div className="text-4xl text-red-700">hello</div>;
+  return <Layout titel={`elyas`}>Hello</Layout>;
 };
 
 export default Index;
