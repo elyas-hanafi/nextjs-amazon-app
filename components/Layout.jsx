@@ -20,7 +20,7 @@ const Layout = ({ children, titel }) => {
               <a className="text-lg font-bold">amazon</a>
             </Link>
             <div>
-              <Link href={`/Cart`} legacyBehavior>
+              <Link href={`/cart`} legacyBehavior>
                 <a className="p-2">
                   Cart
                   {cart.cartItems.length > 0 && (
